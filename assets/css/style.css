@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;700&family=Raleway:wght@300;400;500;600;800&display=swap');
+
+
+/* ----------------------------------------------- COLOURS */
+
+.bg-color-name-title {
+background-color: #f2d5bb66;
+}
+
+.home-btn-bg-color {
+/* background-color: #DEB05F; */
+background-color: #B06175;
+}
+
+.about-btn-bg-color {
+background-color: #61B09C;
+}
+
+.gallery-btn-bg-color {
+background-color: #7461b0c4;
+}
+
+.contact-btn-bg-color {
+background-color: #9DB061;
+}
+
+/* ----------------------------------------------- Special paddings/margins/text */
+
+h1, h2 {
+    margin-top: 0;
+}
+
+.pa-fix {
+    padding: 0px;
+}
+
+.pa-right {
+    padding-right: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.section-heading {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.regular-font {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.25rem;
+}
+
+.regular-font a {
+    text-decoration: none;
+    color: #99666E;
+    font-weight: 500;
+}
+
+.font-bold {
+    font-weight: 500;
+}
+
+/* ----------------------------------------------- Heading */
+
+header {
+    margin: 0;
+}
+
+.logo {
+    background-image: url("../images/logo.jpg");
+    background-color: #F2D5BB;
+    background-position: center;
+    /* background-position-y: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    /* transition: all 5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out; */ 
+}
+
+.name {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #0e0000;
+    font-size: 2.8rem;
+    margin-top: 50px;
+}
+
+.title {
+    font-family: 'Dosis', sans-serif;
+    color: #99666E;
+    font-weight: 700;
+    font-size: 1.75rem;
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav {
+    margin: 0;
+}
+
+#nav li {
+    font-size: 0.875rem;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    height: 120px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #000;
+    font-size: 26px;
+}
+
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+
+
+/* ----------------------------------------------- Section */
+
+
+
+.hr-styling {
+    width: 10%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    color: #99666E;
+    opacity: 1;
+    border-radius: 5px;
+}
+
+/* fixing the height issue of the hr element */
+hr:not([size]) {
+    height: 5px;
+}
+
+
+/* ----------------------------------------------- Footer */
+
+footer {
+    min-height: 120px;
+    background-color: #f2d5bb66;
+    bottom: 0;
+}
+
+.footer-details {
+    padding-top: 20px;
+}
+
+.social-links {
+    padding-bottom: 15px;
+
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #B06175;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background-color: #61B09C;
+}
+
+/* .ceva {
+    color: #B06175;
+} */
