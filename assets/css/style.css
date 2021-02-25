@@ -241,12 +241,12 @@ footer {
 .submit-btn:hover {
     color: #B06175;
     background-color: #fff;
-    border: 1px dashed #B06175;
+    border: 1px solid #B06175;
     font-weight: 500;
 }
 
 .modal-header, .modal-body {
-    background-color: #f2d5bb66;
+    background-color: #f2d5bbd9;
 }
 
 .modal-header {
@@ -258,5 +258,5 @@ footer {
     background-color: #fff;
     border-color: #B06175;
     outline: 0;
-    /* box-shadow: 0 0 0 0.15rem rgba(176, 97, 117, .9); */
+    box-shadow: 0 0 0 0.15rem rgba(176, 97, 117, .9);
 }
