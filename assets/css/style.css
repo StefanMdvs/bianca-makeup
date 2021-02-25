@@ -5,7 +5,7 @@
 /* ----------------------------------------------- COLOURS */
 
 .bg-color-name-title {
-background-color: #f2d5bb66;
+background-color: #f2d5bbd9;
 }
 
 .home-btn-bg-color {
@@ -177,7 +177,7 @@ hr:not([size]) {
 
 footer {
     min-height: 120px;
-    background-color: #f2d5bb66;
+    background-color: #f2d5bbd9;
     bottom: 0;
 }
 
@@ -213,3 +213,50 @@ footer {
 /* .ceva {
     color: #B06175;
 } */
+
+/* ----------------------------------------------- Modal */
+
+.submit-btn {
+    color: #fff;
+    background-color: #B06175;
+    display: inline-block;
+    font-weight: 500;
+    line-height: 1.5;
+    
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.submit-btn:hover {
+    color: #B06175;
+    background-color: #fff;
+    border: 1px dashed #B06175;
+    font-weight: 500;
+}
+
+.modal-header, .modal-body {
+    background-color: #f2d5bb66;
+}
+
+.modal-header {
+    border-bottom: 1px solid #B06175;
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #B06175;
+    outline: 0;
+    /* box-shadow: 0 0 0 0.15rem rgba(176, 97, 117, .9); */
+}
