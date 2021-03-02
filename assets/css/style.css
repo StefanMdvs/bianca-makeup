@@ -4,8 +4,8 @@
 
 /* ----------------------------------------------- COLOURS */
 
-.bg-color-name-title {
-background-color: #f2d5bbd9;
+.bg-color-name-title, .logo {
+background-color: #eaf2d7;
 }
 
 .home-btn-bg-color {
@@ -14,15 +14,23 @@ background-color: #B06175;
 }
 
 .about-btn-bg-color {
-background-color: #61B09C;
+background-color: #A9FFCB;
 }
 
 .gallery-btn-bg-color {
-background-color: #7461b0c4;
+background-color: #c0b298;
 }
 
 .contact-btn-bg-color {
-background-color: #9DB061;
+background-color: #037171e0;
+}
+
+.footer-bg-color {
+    background-color: #eaf2d7;
+}
+
+.modal-bg-color {
+    background-color: #eaf2d7;
 }
 
 /* ----------------------------------------------- Special paddings/margins/text */
@@ -60,7 +68,7 @@ h1, h2 {
 .regular-font a {
     text-decoration: none;
     color: #99666E;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .font-bold {
@@ -75,7 +83,7 @@ header {
 
 .logo {
     background-image: url("../images/logo.jpg");
-    background-color: #F2D5BB;
+    /* background-color: #F2D5BB; */
     background-position: center;
     /* background-position-y: center; */
     background-repeat: no-repeat;
@@ -177,7 +185,6 @@ hr:not([size]) {
 
 footer {
     min-height: 120px;
-    background-color: #f2d5bbd9;
     bottom: 0;
 }
 
@@ -245,9 +252,6 @@ footer {
     font-weight: 500;
 }
 
-.modal-header, .modal-body {
-    background-color: #f2d5bbd9;
-}
 
 .modal-header {
     border-bottom: 1px solid #B06175;
