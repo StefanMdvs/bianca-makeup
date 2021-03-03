@@ -165,8 +165,6 @@ header {
 
 /* ----------------------------------------------- Section */
 
-
-
 .hr-styling {
     width: 10%;
     margin: 0 auto;
@@ -263,3 +261,5 @@ footer {
     outline: 0;
     box-shadow: 0 0 0 0.15rem rgba(176, 97, 117, .9);
 }
+
+
