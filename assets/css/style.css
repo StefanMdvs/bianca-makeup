@@ -47,6 +47,10 @@ h1, h2 {
     padding-right: 0;
 }
 
+.pa-left {
+    padding-left: 1rem;
+}
+
 .uppercase {
     text-transform: uppercase;
 }
