@@ -40,7 +40,7 @@ h1, h2 {
 }
 
 .pa-fix {
-    padding: 0px;
+    padding: 0;
 }
 
 .pa-right {
@@ -88,7 +88,7 @@ header {
     /* background-position-y: center; */
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
+    min-height: 22rem;
     /* transition: all 5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out; */ 
@@ -99,7 +99,7 @@ header {
     font-weight: 600;
     color: #0e0000;
     font-size: 2.8rem;
-    margin-top: 50px;
+    margin-top: 3rem;
 }
 
 .title {
@@ -107,8 +107,8 @@ header {
     color: #99666E;
     font-weight: 700;
     font-size: 1.75rem;
-    margin-top: 20px;
-    margin-bottom: 90px;
+    margin-top: 1.3rem;
+    margin-bottom: 5.6rem;
 }
 
 .list-inline-item:not(:last-child) {
@@ -128,47 +128,43 @@ header {
 }
 
 .menuitem {
-    height: 120px;
+    height: 7.5rem;
     text-align: center;
     padding: 0;
 }
 
 .menuitem a {
     width: 100%;
-    height: 120px;
+    height: 7.5rem;
     text-decoration: none;
     color: #000;
     font-weight: 600;
 }
 
 .menuitem a i {
-    padding-top: 22px;
+    padding-top: 1.4rem;
     display: block;
     color: #000;
-    font-size: 26px;
+    font-size: 1.6rem;
 }
-
 
 .menuitem span {
     display: block;
     font-family: 'Raleway', sans-serif;
     width: 100%;
-    padding-top: 5px;
+    padding-top: .3rem;
     text-align: center;
     text-transform: uppercase;
     font-size: 0.875rem;
     font-weight: 600;
-    letter-spacing: 2px;
+    letter-spacing: .15rem;
 }
-
-
 
 /* ----------------------------------------------- Section */
 
 .hr-styling {
     width: 10%;
-    margin: 0 auto;
-    margin-bottom: 1rem;
+    margin: 0 auto 1rem;
     color: #99666E;
     opacity: 1;
     border-radius: 5px;
@@ -176,33 +172,32 @@ header {
 
 /* fixing the height issue of the hr element */
 hr:not([size]) {
-    height: 5px;
+    height: .3rem;
 }
-
 
 /* ----------------------------------------------- Footer */
 
 footer {
-    min-height: 120px;
+    min-height: 7.5rem;
     bottom: 0;
 }
 
 .footer-details {
-    padding-top: 20px;
+    padding-top: 1.3rem;
 }
 
 .social-links {
-    padding-bottom: 15px;
+    padding-bottom: 1rem;
 
 }
 
 .social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
+    width: 2rem;
+    height: 2rem;
+    padding: .75rem 0;
     border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
+    font-size: .9rem;
+    line-height: .5rem;
     text-align: center;
     color: #fafafa;
     background: #B06175;
@@ -216,12 +211,7 @@ footer {
     background-color: #037171e0;
 }
 
-/* .ceva {
-    color: #B06175;
-} */
-
 /* ----------------------------------------------- Modal */
-
 
 .submit-btn {
     color: #fff;
@@ -248,7 +238,6 @@ footer {
     background-color: #fff;
     border: 1px solid #B06175;
 }
-
 
 .modal-header {
     border-bottom: 1px solid #B06175;
