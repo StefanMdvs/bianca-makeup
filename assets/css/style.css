@@ -164,7 +164,7 @@ header {
     letter-spacing: .15rem;
 }
 
-/* ----------------------------------------------- Section */
+/* ----------------------------------------------- Home section */
 
 .hr-styling {
     width: 10%;
@@ -177,6 +177,41 @@ header {
 /* fixing the height issue of the hr element */
 hr:not([size]) {
     height: .3rem;
+}
+
+/* ----------------------------------------------- About me section */
+
+.about-me-item {
+    /* margin-bottom: 20px; */
+    display: block;
+    clear: both;
+}
+
+.about-me-item .key,
+.about-me-item .value {
+    display: inline-block;
+    padding-right: .5rem;
+}
+
+.about-me-item .key {
+    margin-right: 1.3rem;
+}
+
+.about-me-item .key {
+    width: 30%;
+    vertical-align: top;
+}
+
+.about-me-item .value {
+    width: 60%;
+    position: relative;
+}
+
+/* the solution for text breaking was found at https://css-tricks.com/snippets/css/prevent-long-urls-from-breaking-out-of-container/ */
+
+.break {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
 }
 
 /* ----------------------------------------------- Footer */
