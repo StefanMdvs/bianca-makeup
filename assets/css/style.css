@@ -214,6 +214,26 @@ hr:not([size]) {
     word-wrap: break-word;
 }
 
+/* Found the margin-left/right properties that helped center the img on https://www.w3schools.com/css/css3_images.asp */
+.round-img {
+    border-radius: 50%;
+    display: block;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+@media (min-width: 375px) {
+    .round-img {
+    border-radius: 50%;
+    display: inline-block;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+    .me {
+        display: inline-block;
+        margin-right: 1rem;
+    }
+}
 /* ----------------------------------------------- Footer */
 
 footer {
