@@ -226,11 +226,23 @@ hr:not([size]) {
     .round-img {
     border-radius: 50%;
     display: inline-block;
-    /* margin-left: auto;
-    margin-right: auto; */
+    margin-left: auto;
+    margin-right: auto;
 }
     .me {
         display: inline-block;
+        margin-right: 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .round-img {
+    border-radius: 50%;
+    display: block;
+    margin-left: 0;
+}
+    .me {
+        display: block;
         margin-right: 1rem;
     }
 }
