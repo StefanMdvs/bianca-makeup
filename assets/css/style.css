@@ -51,6 +51,18 @@ h1, h2 {
     padding-left: 1rem;
 }
 
+.margin-bottom {
+    margin-bottom: .5rem;
+}
+
+.margin-top {
+    margin-top: .5rem;
+}
+
+.margin-fix {
+    margin: .5rem 0 .5rem 0;
+}
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -246,6 +258,13 @@ hr:not([size]) {
         margin-right: 1rem;
     }
 }
+
+/* ----------------------------------------------- Gallery */
+
+.margin-fix img {
+    border-radius: 5px;
+}
+
 /* ----------------------------------------------- Footer */
 
 footer {
