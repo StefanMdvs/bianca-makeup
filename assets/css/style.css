@@ -341,4 +341,43 @@ footer {
     box-shadow: 0 0 0 0.15rem rgba(176, 97, 117, .9);
 }
 
+/* ----------------------------------------------- Contact Form */
 
+.form-header {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    margin: .5rem 0 .5rem 0;
+}
+
+.form-body {
+    padding-top: .6rem;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 1rem;
+    margin-bottom: 1.2rem;
+    color: #fff;
+    font-weight: 500;
+    background-color: #B06175;
+    border-color: #B06175;
+}
+
+button[type="submit"]:hover {
+    color: #B06175;
+    background-color: #fff;
+    border: 1px solid #B06175;
+    font-weight: 500;
+}
+
+/* ----------------------------------------------- Media Queries */
+
+@media(min-width: 992px) {
+    .form-body {
+        padding-top: 2rem;
+        min-height: 15rem;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+}
