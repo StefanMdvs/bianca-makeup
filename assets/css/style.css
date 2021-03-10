@@ -339,15 +339,6 @@ button[type="submit"]:hover {
 
 /* ----------------------------------------------- Media Queries */
 
-@media(min-width: 992px) {
-    .form-body {
-        padding-top: 2rem;
-        min-height: 15rem;
-        margin: 0 auto;
-        max-width: 50%;
-    }
-}
-
 /* About me image displaying inline in mobile view */
 
 @media (min-width: 375px) {
@@ -372,5 +363,14 @@ button[type="submit"]:hover {
     .me {
         display: block;
         margin-right: 1rem;
+    }
+}
+
+@media(min-width: 992px) {
+    .form-body {
+        padding-top: 2rem;
+        min-height: 15rem;
+        margin: 0 auto;
+        max-width: 50%;
     }
 }
