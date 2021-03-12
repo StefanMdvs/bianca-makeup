@@ -4,7 +4,7 @@
 * [UX](#ux)
   * [User stories](#user-stories)
   * [Structure](#structure)
-  * Design
+  * [Design](#design)
 * Limitations
 * Features
 * Technologies used
@@ -18,7 +18,8 @@
 # Name
 The project's name is **Bianca Mihaela makeup artist Dublin** and it was built
  using the knowledge gained within the course, for a family member living in Dublin 
- that wants to increase their clients through an online presence.
+ that wants to increase their clients through an online presence.  
+ The live website can be found [here](http://www.google.com).
 
 # Purpose
 Bianca has been practicing makeup on various ocasions for different events,
@@ -41,8 +42,59 @@ makeup;
 ## Structure
 For easy navigation, each page will display the navigation menu (with navigation
 elements to the other pages) and footer (containing links helping to subscribe 
-for a newsletter or giving the opportunity to follow on social media).  
-The Home Page will show a short video presenting the work of the artist, the purpose 
-of the video being to catch user's attention and make them look further.
+for a newsletter or giving the opportunity to follow on social media).   
 
+The *Home Page* will show a short video presenting the work of the artist, the purpose 
+of the video being to catch user's attention and make them look further. It will also 
+display information about the artist's work and material used as well as the 
+important mention that she is also mobile.  
+
+The *About Page* will display the address, mobile number and email 
+address toghether with a short presentation about the artist, what they do and why 
+clients should chose them.  
+
+The *Gallery Page* will display a range of quality photos to highlight their work.  
+
+The *Contact Page* will offer the posibility of sending a message to the artist by 
+filling in a form.
+
+
+[<span>&#8592;</span> ***Back to contents***](#table-of-contents)
+
+## Design
+### Colour scheme
+I wanted to represent as close as possible the colours of a makeup kit. 
+Using [Coolors color scheme generator](#http://www.coolors.co) 
+I have uploaded the logo image and chose **<span style="color: #B06175">Rose Dust</span>** 
+as the main colour. This colour is also used for borders, buttons and highlighting links.
+ Also, giving the nature of the project, I considered that introducing colours from 
+the same pallette on the nav menu will make a pleasant user experience.
+Header and Footer will have a **<span style="background: #EAF2D7">Beige</span>** background. 
+This colour will also be used for the modal background.
+### Typography
+The Title and headers throughout the website will use the **Raleway** font family 
+while the rest of the text will use **Dosis** font family.
+### Imagery
+Due to proffessional images and video not being available at this stage, I have used the 
+free online resources available on [Unsplash](https://unsplash.com/s/photos/makeup) for photos 
+and the video can be found on [Coverr](https://coverr.co/videos/makeup-artist-adjusts-a-makeup-qhK3crUtyU).
+### Wireframes
+I have created wireframes for Desktop, tablet and mobile view for each Page.  
+*Home Page*  
+This full screen wireframe can be found ![here](assets/wireframes/BiancaHomeAll.pdf)  
+
+![](assets/wireframes/print-screen-home.png)  
+
+*About Page*  
+
+
+![](assets/wireframes/print-screen-about.png)  
+
+*Gallery Page*  
+
+![](assets/wireframes/print-screen-gallery.png)  
+
+*Contact Page*  
+
+![](assets/wireframes/print-screen-contact.png)  
 
