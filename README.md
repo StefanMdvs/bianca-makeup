@@ -1,12 +1,13 @@
 ![header website Bianca makeup](assets/images/readme-img/screenshot-header.png)
 ## **Table of contents**
-* [Name](#name)
+* [Name](#project's-name)
+* [Purpose](#purpose)
 * [UX](#ux)
   * [User stories](#user-stories)
   * [Structure](#structure)
   * [Design](#design)
-* Limitations
-* Features
+* [Limitations](#limitations)
+* [Features](#features)
 * Technologies used
 * Testing
 * Deployment
@@ -15,7 +16,7 @@
   * Media
   * Acknowledgements
 
-# Name
+# Project's Name
 The project's name is **Bianca Mihaela makeup artist Dublin** and it was built
  using the knowledge gained within the course, for a family member living in Dublin 
  that wants to increase their clients through an online presence.  
@@ -81,7 +82,6 @@ and the video can be found on [Coverr](https://coverr.co/videos/makeup-artist-ad
 ### Wireframes
 I have created wireframes for Desktop, tablet and mobile view for each Page.  
 *Home Page*  
-This full screen wireframe can be found ![here](assets/wireframes/BiancaHomeAll.pdf)  
 
 ![](assets/wireframes/print-screen-home.png)  
 
@@ -98,3 +98,15 @@ This full screen wireframe can be found ![here](assets/wireframes/BiancaHomeAll.
 
 ![](assets/wireframes/print-screen-contact.png)  
 
+Full wireframes can be accessed here:
+* [Home](assets/wireframes/BiancaHomeAll.pdf)
+* [About](assets/wireframes/BiancaAboutAll.pdf)
+* [Gallery](assets/wireframes/BiancaGalleryAll.pdf)
+* [Contact](assets/wireframes/BiancaContactAll.pdf)
+# Limitations
+Except the Modal imported from Bootstrap, the website has been built only with 
+HTML and CSS, therefore it doesn't store data or send email requests.
+# Features
+## Existing features
+
+## Later release
