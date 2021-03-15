@@ -15,9 +15,9 @@
 * [Deployment](#deployment)
     * [Run project locally](#run-project-locally)
 * [Credits](#credits)
-  * Content
-  * Media
-  * Acknowledgements
+  * [Code](#code)
+  * [Media](#media)
+  * [Acknowledgements](#acknowledgements)
 
 # Project's Name
 The project's name is **Bianca Mihaela makeup artist Dublin** and it was built
@@ -62,9 +62,6 @@ The *Gallery Page* will display a range of quality photos to highlight their wor
 
 The *Contact Page* will offer the posibility of sending a message to the artist by 
 filling in a form.
-
-
-[<span>&#8592;</span> ***Back to contents***](#table-of-contents)
 
 ## Design
 ### Colour scheme
