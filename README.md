@@ -22,7 +22,7 @@
 The project's name is **Bianca Mihaela makeup artist Dublin** and it was built
  using the knowledge gained within the course, for a family member living in Dublin 
  that wants to increase their clients through an online presence.  
- The live website can be found [here](http://www.google.com).
+ The live website can be found [here](#https://stefanmdvs.github.io/bianca-makeup/).
 
 # Purpose
 Bianca has been practicing makeup on various ocasions for different events,
@@ -140,6 +140,32 @@ wireframes;
 [Adobe Color](#https://color.adobe.com/create/color-wheel): for color picking and colour scheme;
 
 # Testing
+While testing the following strategy should be approached:
+* website is responsive on different screen sizes;
+* navigation links takes to the right page;
+* clicking on logo picture takes user to the home page;
+* links to external websites open in a new tab;
+* internal links takes user to the right page;
+* checking the required fields have been filled up before submitting the contact form;
+* checking the email address has the right format both on the modal and contact form.
+
+Website was also tested considering the user stories:
+> 1. As a potential client, I can easily and intuitively navigate across the website 
+to find information;
+
+
+
+2. As a potential client, I can easily find information about the artist's work;
+3. As a potential client, I want to see video/photo about her work;
+4. As a potential client/returning client, I can contact the owner to book an 
+appointment;
+5. As a potential client, I can sign up to a newsletter to get regular tips about 
+makeup;
+6. As a potential client, I can find and follow them on social media.
 
 # Deployment
 
+The project was deployed from GitHub using GitHub Pages following these steps:
+* from Settings tab, scroll down to GitHub Pages;
+* select master branch as the source and Save;
+* follow the link generated to access the [live website](#https://stefanmdvs.github.io/bianca-makeup/).
