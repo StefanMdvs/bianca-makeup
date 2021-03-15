@@ -13,7 +13,8 @@
 * [Technologies used](#technologies-used)
 * [Testing](#testing)
 * [Deployment](#deployment)
-* Credits
+    * [Run project locally](#run-project-locally)
+* [Credits](#credits)
   * Content
   * Media
   * Acknowledgements
@@ -140,6 +141,7 @@ wireframes;
 [Adobe Color](#https://color.adobe.com/create/color-wheel): for color picking and colour scheme;
 
 # Testing
+## Strategy
 While testing the following strategy should be approached:
 * website is responsive on different screen sizes;
 * navigation links takes user to the right page;
@@ -148,22 +150,36 @@ While testing the following strategy should be approached:
 * internal links takes user to the right page;
 * checking the required fields have been filled up before submitting the contact form;
 * checking the email address has the right format both on the modal and contact form.  
+
 All HTML pages were checked using [W3C HTML validator](#https://validator.w3.org/) and 
 no errors were found.  
 Also CSS was checked using [W3C CSS validator](#https://jigsaw.w3.org/css-validator/) and no errors were found.
 Website was also tested considering the user stories:
 > 1. As a potential client, I can easily and intuitively navigate across the website 
 to find information;
-
-
-
-2. As a potential client, I can easily find information about the artist's work;
-3. As a potential client, I want to see video/photo about her work;
-4. As a potential client/returning client, I can contact the owner to book an 
+>
+Website was tested and all navigation links work well.  
+>2. As a potential client, I can easily find information about the artist's work;
+>
+Information about the artist's work can be found on Home Page and About Page.  
+>3. As a potential client, I want to see video/photo about her work;
+>
+Gallery page loads the pictures and the video can be played/paused.
+>4. As a potential client/returning client, I can contact the owner to book an 
 appointment;
-5. As a potential client, I can sign up to a newsletter to get regular tips about 
+>
+Contact form has been tested and it requires all the fields to be filled before submitting.
+>5. As a potential client, I can sign up to a newsletter to get regular tips about 
 makeup;
-6. As a potential client, I can find and follow them on social media.
+>
+The links to the modal work and it requires an email address before submitting.
+>6. As a potential client, I can find and follow them on social media.
+>
+Links to social media open in a new tab.
+## Issues found
+When testing the following issues were found and fixed:
+* Modal could be sent empty - fixed by adding the *required* attribute to email field;
+* Contact form could be sent empty - fixed by adding the *required* attribute to all fields.
 
 # Deployment
 
@@ -171,3 +187,23 @@ The project was deployed from GitHub using GitHub Pages following these steps:
 * from Settings tab, scroll down to GitHub Pages;
 * select master branch as the source and Save;
 * follow the link generated to access the [live website](#https://stefanmdvs.github.io/bianca-makeup/).
+## Run project locally
+* Navigate to the GitHub [Repository](#https://github.com/StefanMdvs/bianca-makeup):
+* Click the Code drop down menu.
+* Either Download the ZIP file, unpackage locally and open with IDE (this route ends here) OR Copy Git URL from the HTTPS dialogue box.
+* Open your IDE in a directory of your choice.
+* Use the 'git clone' command in terminal followed by the copied git URL.
+* A clone of the project will be created locally on your machine.  
+# Credits
+## Code
+The solution for text breaking the email string on About Page was found on [Css Tricks](#https://css-tricks.com/snippets/css/prevent-long-urls-from-breaking-out-of-container/)
+## Media
+Media used in this project can be found at:
+* [Unsplash](https://unsplash.com/s/photos/makeup), for photos in Gallery section;
+* [Coverr](https://coverr.co/videos/makeup-artist-adjusts-a-makeup-qhK3crUtyU), for video 
+in Home section.
+ ## Acknowledgements
+ I have found inspiration for writing the README.md file in my peers' projects, 
+ [Daisy-McG](#https://github.com/Daisy-McG/MilestoneProject-1/blob/master/README.md) and 
+ [Mr-Smyth](#https://github.com/Mr-Smyth/eHand/blob/master/README.md).  
+ Last but not least, special thanks to my mentour Spencer Barriball whose support was peerless!
