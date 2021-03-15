@@ -185,6 +185,11 @@ hr:not([size]) {
     height: .3rem;
 }
 
+video {
+    width: 100%;
+    height: auto;
+}
+
 /* ----------------------------------------------- About me section */
 
 .about-me-item {
@@ -228,6 +233,7 @@ hr:not([size]) {
 /* ----------------------------------------------- Gallery */
 
 .margin-fix img {
+    width: 100%;
     border-radius: 5px;
 }
 

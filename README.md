@@ -142,13 +142,15 @@ wireframes;
 # Testing
 While testing the following strategy should be approached:
 * website is responsive on different screen sizes;
-* navigation links takes to the right page;
+* navigation links takes user to the right page;
 * clicking on logo picture takes user to the home page;
 * links to external websites open in a new tab;
 * internal links takes user to the right page;
 * checking the required fields have been filled up before submitting the contact form;
-* checking the email address has the right format both on the modal and contact form.
-
+* checking the email address has the right format both on the modal and contact form.  
+All HTML pages were checked using [W3C HTML validator](#https://validator.w3.org/) and 
+no errors were found.  
+Also CSS was checked using [W3C CSS validator](#https://jigsaw.w3.org/css-validator/) and no errors were found.
 Website was also tested considering the user stories:
 > 1. As a potential client, I can easily and intuitively navigate across the website 
 to find information;
