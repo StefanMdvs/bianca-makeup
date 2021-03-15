@@ -24,6 +24,7 @@ The project's name is **Bianca Mihaela makeup artist Dublin** and it was built
  using the knowledge gained within the course, for a family member living in Dublin 
  that wants to increase their clients through an online presence.  
  The live website can be found [here](#https://stefanmdvs.github.io/bianca-makeup/).
+![header website Bianca makeup](assets/images/readme-img/bianca-mockup.png)
 
 # Purpose
 Bianca has been practicing makeup on various ocasions for different events,
