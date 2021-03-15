@@ -23,7 +23,7 @@
 The project's name is **Bianca Mihaela makeup artist Dublin** and it was built
  using the knowledge gained within the course, for a family member living in Dublin 
  that wants to increase their clients through an online presence.  
- The live website can be found [here](#https://stefanmdvs.github.io/bianca-makeup/).
+ The live website can be found [here](https://stefanmdvs.github.io/bianca-makeup/).
 ![header website Bianca makeup](assets/images/readme-img/bianca-mockup.png)
 
 # Purpose
@@ -130,16 +130,16 @@ a time slot and a date for their booking.
 This project uses the following technologies:
 * HTML5: for website's structure;
 * Custom CSS: for styling the website;
-* [Bootstrap](#https://getbootstrap.com/): for layout and styling;
-* [FontAwesome](#https://fontawesome.com/): for navigation and social-links icons;
-* [Google Fonts](#https://fonts.google.com/): to import the two font families used throughout the project;
-* [Git](#https://git-scm.com/): used for version control;
-* [GitHub](#https://github.com/) and [GitPages](#https://pages.github.com/): 
+* [Bootstrap](https://getbootstrap.com/): for layout and styling;
+* [FontAwesome](https://fontawesome.com/): for navigation and social-links icons;
+* [Google Fonts](https://fonts.google.com/): to import the two font families used throughout the project;
+* [Git](https://git-scm.com/): used for version control;
+* [GitHub](https://github.com/) and [GitPages](https://pages.github.com/): 
 for hosting and deploying the website;
-* [Balsamiq](#https://balsamiq.com/wireframes/desktop/): software used to create the 
+* [Balsamiq](https://balsamiq.com/wireframes/desktop/): software used to create the 
 wireframes;
-* [Coolors](#https://coolors.co/264653-2a9d8f-e9c46a-f4a261-e76f51) and 
-[Adobe Color](#https://color.adobe.com/create/color-wheel): for color picking and colour scheme;
+* [Coolors](https://coolors.co/264653-2a9d8f-e9c46a-f4a261-e76f51) and 
+[Adobe Color](https://color.adobe.com/create/color-wheel): for color picking and colour scheme;
 
 # Testing
 ## Strategy
@@ -152,9 +152,9 @@ While testing the following strategy should be approached:
 * checking the required fields have been filled up before submitting the contact form;
 * checking the email address has the right format both on the modal and contact form.  
 
-All HTML pages were checked using [W3C HTML validator](#https://validator.w3.org/) and 
+All HTML pages were checked using [W3C HTML validator](https://validator.w3.org/) and 
 no errors were found.  
-Also CSS was checked using [W3C CSS validator](#https://jigsaw.w3.org/css-validator/) and no errors were found.
+Also CSS was checked using [W3C CSS validator](https://jigsaw.w3.org/css-validator/) and no errors were found.
 Website was also tested considering the user stories:
 > 1. As a potential client, I can easily and intuitively navigate across the website 
 to find information;
@@ -187,9 +187,9 @@ When testing the following issues were found and fixed:
 The project was deployed from GitHub using GitHub Pages following these steps:
 * from Settings tab, scroll down to GitHub Pages;
 * select master branch as the source and Save;
-* follow the link generated to access the [live website](#https://stefanmdvs.github.io/bianca-makeup/).
+* follow the link generated to access the [live website](https://stefanmdvs.github.io/bianca-makeup/).
 ## Run project locally
-* Navigate to the GitHub [Repository](#https://github.com/StefanMdvs/bianca-makeup):
+* Navigate to the GitHub [Repository](https://github.com/StefanMdvs/bianca-makeup):
 * Click the Code drop down menu.
 * Either Download the ZIP file, unpackage locally and open with IDE (this route ends here) OR Copy Git URL from the HTTPS dialogue box.
 * Open your IDE in a directory of your choice.
@@ -205,6 +205,6 @@ Media used in this project can be found at:
 in Home section.
  ## Acknowledgements
  I have found inspiration for writing the README.md file in my peers' projects, 
- [Daisy-McG](#https://github.com/Daisy-McG/MilestoneProject-1/blob/master/README.md) and 
- [Mr-Smyth](#https://github.com/Mr-Smyth/eHand/blob/master/README.md).  
+ [Daisy-McG](https://github.com/Daisy-McG/MilestoneProject-1/blob/master/README.md) and 
+ [Mr-Smyth](https://github.com/Mr-Smyth/eHand/blob/master/README.md).  
  Last but not least, special thanks to my mentour Spencer Barriball whose support was peerless!
