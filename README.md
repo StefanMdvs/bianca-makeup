@@ -197,7 +197,8 @@ The project was deployed from GitHub using GitHub Pages following these steps:
 * A clone of the project will be created locally on your machine.  
 # Credits
 ## Code
-The solution for text breaking the email string on About Page was found on [Css Tricks](#https://css-tricks.com/snippets/css/prevent-long-urls-from-breaking-out-of-container/)
+The solution for text breaking the email string on About Page was found 
+on [Css Tricks](#https://css-tricks.com/snippets/css/prevent-long-urls-from-breaking-out-of-container/).
 ## Media
 Media used in this project can be found at:
 * [Unsplash](https://unsplash.com/s/photos/makeup), for photos in Gallery section;
