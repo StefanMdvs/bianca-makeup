@@ -8,9 +8,11 @@
   * [Design](#design)
 * [Limitations](#limitations)
 * [Features](#features)
-* Technologies used
-* Testing
-* Deployment
+    * [Existing features](#existing-features)
+    * [Features left to implement](#features-left-to-implement)
+* [Technologies used](#technologies-used)
+* [Testing](#testing)
+* [Deployment](#deployment)
 * Credits
   * Content
   * Media
@@ -98,7 +100,7 @@ I have created wireframes for Desktop, tablet and mobile view for each Page.
 
 ![](assets/wireframes/print-screen-contact.png)  
 
-Full wireframes can be accessed here:
+Full-size wireframes can be accessed here:
 * [Home](assets/wireframes/BiancaHomeAll.pdf)
 * [About](assets/wireframes/BiancaAboutAll.pdf)
 * [Gallery](assets/wireframes/BiancaGalleryAll.pdf)
@@ -108,5 +110,36 @@ Except the Modal imported from Bootstrap, the website has been built only with
 HTML and CSS, therefore it doesn't store data or send email requests.
 # Features
 ## Existing features
+* Call to action links on Home Page sending user to:
+    * Modal for joining newsletter list;
+    * Contact page to fill in and submit contact form.
+* Call to action on About Page:
+    * Clickable phone number for easier contact;
+    * Clickable email address for faster email sending;
+    * Link to Contact and Gallery Pages.
+* Contact form on Contact Page with text area for event description;
+* Call to action link in Footer sending to Modal for joining newsletter list.
 
-## Later release
+## Features left to implement
+The future release should focus on implementing a Booking button that will allow users to select 
+a time slot and a date for their booking.
+
+# Technologies used
+This project uses the following technologies:
+* HTML5: for website's structure;
+* Custom CSS: for styling the website;
+* [Bootstrap](#https://getbootstrap.com/): for layout and styling;
+* [FontAwesome](#https://fontawesome.com/): for navigation and social-links icons;
+* [Google Fonts](#https://fonts.google.com/): to import the two font families used throughout the project;
+* [Git](#https://git-scm.com/): used for version control;
+* [GitHub](#https://github.com/) and [GitPages](#https://pages.github.com/): 
+for hosting and deploying the website;
+* [Balsamiq](#https://balsamiq.com/wireframes/desktop/): software used to create the 
+wireframes;
+* [Coolors](#https://coolors.co/264653-2a9d8f-e9c46a-f4a261-e76f51) and 
+[Adobe Color](#https://color.adobe.com/create/color-wheel): for color picking and colour scheme;
+
+# Testing
+
+# Deployment
+
