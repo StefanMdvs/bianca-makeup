@@ -185,6 +185,7 @@ header {
 }
 
 /* fixing the height issue of the hr element */
+
 hr:not([size]) {
     height: .3rem;
 }
@@ -229,6 +230,7 @@ video {
 }
 
 /* Found the margin-left/right properties that helped center the img on https://www.w3schools.com/css/css3_images.asp */
+
 .round-img {
     border-radius: 50%;
     display: block;
@@ -254,7 +256,6 @@ footer {
 
 .social-links {
     padding-bottom: 1rem;
-
 }
 
 .social-links li a i {
@@ -351,7 +352,7 @@ button[type="submit"]:hover {
 
 /* About me image displaying inline in mobile view */
 
-@media (min-width: 375px) {
+@media (min-width: 360px) {
     .round-img {
     border-radius: 50%;
     display: inline-block;
