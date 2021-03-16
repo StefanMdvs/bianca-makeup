@@ -352,7 +352,7 @@ button[type="submit"]:hover {
 
 /* About me image displaying inline in mobile view */
 
-@media (min-width: 360px) {
+@media (min-width: 375px) {
     .round-img {
     border-radius: 50%;
     display: inline-block;
