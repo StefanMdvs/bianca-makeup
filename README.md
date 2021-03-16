@@ -66,12 +66,12 @@ filling in a form.
 ## Design
 ### Colour scheme
 I wanted to represent as close as possible the colours of a makeup kit. 
-Using [Coolors color scheme generator](#http://www.coolors.co) 
-I have uploaded the logo image and chose **<span style="color: #B06175">Rose Dust</span>** 
+Using [Coolors colour scheme generator](http://www.coolors.co) 
+I have uploaded the logo image and chose **Rose Dust** 
 as the main colour. This colour is also used for borders, buttons and highlighting links.
  Also, giving the nature of the project, I considered that introducing colours from 
 the same palette on the nav menu will make a pleasant user experience.
-Header and Footer will have a **<span style="background: #EAF2D7">Beige</span>** background. 
+Header and Footer will have a **Beige** background. 
 This colour will also be used for the modal background.
 ### Typography
 The Title and headers throughout the website will use the **Raleway** font family 
@@ -136,7 +136,7 @@ for hosting and deploying the website;
 * [Balsamiq](https://balsamiq.com/wireframes/desktop/): software used to create the 
 wireframes;
 * [Coolors](https://coolors.co/264653-2a9d8f-e9c46a-f4a261-e76f51) and 
-[Adobe Color](https://color.adobe.com/create/color-wheel): for color picking and colour scheme;
+[Adobe Color](https://color.adobe.com/create/color-wheel): for colour picking and colour scheme;
 
 # Testing
 ## Strategy
